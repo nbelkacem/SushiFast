@@ -1,0 +1,22 @@
+<div *ngIf="historiqueCommandes.length > 0" class="table-container">
+    <table>
+        <thead>
+            <tr>
+                <th>Numéro de Commande</th>
+                <th>Prix</th>
+                <th>Détails</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let commande of historiqueCommandes">
+                <td>{{NumCommande() }}</td>
+                <td>{{ PrixTotalCommande(commande) }}</td>
+                <td><button (click)="afficherDetails(commande)">Voir</button></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div *ngIf="historiqueCommandes.length == 0" class="historique-container">
+    <p>aucune commande dans l'historique</p>
+</div>

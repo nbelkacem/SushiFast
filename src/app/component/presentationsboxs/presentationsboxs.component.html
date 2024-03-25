@@ -1,0 +1,26 @@
+<!-- Container principal -->
+<div class="container mx-auto mt-4 card-container">
+    <!-- Grille de cartes -->
+    <div class="row row-cols-3">
+
+        <!-- Boucle sur les boîtes de sushis -->
+        <div *ngFor="let box of boxes" class="col">
+            <!-- Carte de boîte de sushi -->
+            <div class="card mx-auto">
+                <!-- Image de la boîte -->
+                <a class="nav-link active" routerLink="/detail-box/{{box.id}}" routerLinkActive="active">
+                    <img src="http://localhost:8080/api/image/{{box.image}}" class="card-img-top clickable-image"
+                        data-bs-toggle="modal" data-bs-target="#exampleModal"></a>
+                <div class="card-body">
+                    <!-- Détails de la boîte -->
+                    <h5 class="card-title" style="color: black;">{{box.nom}}</h5>
+                    <h6 class="card-subtitle mb-2" style="text-align: right; color: black">{{box.prix}}€</h6>
+                    <!-- Boutons +/- -->
+                    <button class="button" (click)="reduireQuantite(box)">-</button>
+                    <span style="margin: 0 100px;"></span> <!-- Espace entre les boutons -->
+                    <button class="button" (click)="ajoutLigne(box)">+</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

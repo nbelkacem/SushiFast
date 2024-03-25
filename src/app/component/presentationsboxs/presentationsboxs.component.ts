@@ -26,7 +26,7 @@ export class PresentationsboxsComponent {
     return this.panierManager.addPanier(box,1)
   }
   reduireQuantite(box:Box){
-    return this.panierManager.minusPanier
+    return this.panierManager.minusPanier(box,1)
   }
 
 }

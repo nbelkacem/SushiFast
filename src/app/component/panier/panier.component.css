@@ -17,17 +17,13 @@
     position: absolute;
     right: 0;
     margin-right: 20px;
-
   }
-  
   .svgIcon {
     width: 16px;
   }
-  
   .svgIcon path {
     fill: white;
   }
-  
   .Btn-pay::before {
     width: 130px;
     height: 130px;
@@ -40,13 +36,11 @@
     transition-duration: .3s;
     mix-blend-mode: difference;
   }
-  
   .Btn-pay:hover::before {
     transition-duration: .3s;
     transform: translate(100%,-50%);
     border-radius: 0;
   }
-  
   .Btn-pay:active {
     transform: translate(5px,5px);
     transition-duration: .3s;
@@ -71,7 +65,6 @@
     position: absolute;
     left: 0;
   }
-
   .Btn-supp::before {
     width: 130px;
     height: 130px;
@@ -84,18 +77,15 @@
     transition-duration: .3s;
     mix-blend-mode: difference;
   }
-  
   .Btn-supp:hover::before {
     transition-duration: .3s;
     transform: translate(100%,-50%);
     border-radius: 0;
   }
-  
   .Btn-supp:active {
     transform: translate(5px,5px);
     transition-duration: .3s;
-  } 
-
+  }
   .button {
     -moz-appearance: none;
     -webkit-appearance: none;
@@ -112,7 +102,6 @@
     font-size: 14px;
     transition: all .15s ease;
   }
-  
   .button::before,
   .button::after {
     content: '';
@@ -124,36 +113,29 @@
     border: 1px solid #0f1923   ;
     transition: all .15s ease;
   }
-  
   .button::before {
     top: 0;
     border-bottom-width: 0;
   }
-  
   .button::after {
     bottom: 0;
     border-top-width: 0;
   }
-  
   .button:active,
   .button:focus {
     outline: none;
   }
-  
   .button:active::before,
   .button:active::after {
     right: 3px;
     left: 3px;
   }
-  
   .button:active::before {
     top: 3px;
   }
-  
   .button:active::after {
     bottom: 3px;
   }
-  
   .button_lg {
     position: relative;
     display: block;
@@ -163,7 +145,6 @@
     overflow: hidden;
     box-shadow: inset 0px 0px 0px 1px transparent;
   }
-  
   .button_lg::before {
     content: '';
     display: block;
@@ -174,7 +155,6 @@
     height: 2px;
     background-color: #0f1923;
   }
-  
   .button_lg::after {
     content: '';
     display: block;
@@ -186,7 +166,6 @@
     background-color: #0f1923;
     transition: all .2s ease;
   }
-  
   .button_sl {
     display: block;
     position: absolute;
@@ -198,19 +177,15 @@
     transform: skew(-15deg);
     transition: all .2s ease;
   }
-  
   .button_text {
     position: relative;
   }
-  
   .button:hover {
     color: #0f1923;
   }
-  
   .button:hover .button_sl {
     width: calc(100% + 15px);
   }
-  
   .button:hover .button_lg::after {
     background-color: #fff;
   }

@@ -27,7 +27,7 @@ image::maquette.png[]
 
 == Header et Footer
 
-J'ai réalisé le header et le footer pour Sheinez et moi, ce n'était pas très compliqué, si ce n'est qu'elle devait trouvé un moyen pour que le logo soit en format png, mais lors de la conversion de l'image des caractères se faisaient "manger"
+J'ai réalisé le header et le footer pour Sheinez et moi, ce n'était pas très compliqué, si ce n'est qu'elle devait trouver un moyen pour que le logo soit en format png, mais lors de la conversion de l'image des caractères se faisaient "manger"
 
 image::logo.png[]
 

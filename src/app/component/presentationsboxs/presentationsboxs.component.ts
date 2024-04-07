@@ -21,7 +21,7 @@ export class PresentationsboxsComponent {
       }
     })
   }
-  
+
   ajoutLigne(box:Box){
     return this.panierManager.addPanier(box,1)
   }

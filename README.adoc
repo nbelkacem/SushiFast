@@ -318,7 +318,7 @@ On gère l'affichage du Panier en appelant les méthodes nécessaires sur les bo
   </table>
 ----
 
-La méthode "ajouterHistorique" utilisait par le panier permet d'ajouter une ligne de commande dans l'historique. Quant à l'historique en lui même, c'est le même principe que l'affichage du panier. Des méthodes spécifiques au fonctionnement de l'historique sont déclarées, cette fois-ci, directement dans le component, comme ceci:
+La méthode "ajouterHistorique" utilisée par le panier permet d'ajouter une ligne de commande dans l'historique. Quant à l'historique en lui même, c'est le même principe que l'affichage du panier. Des méthodes spécifiques au fonctionnement de l'historique sont déclarées, cette fois-ci, directement dans le component, comme ceci:
 
 [source, typescript]
 ----
